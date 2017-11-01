@@ -1,7 +1,9 @@
 
 To verify the tests.
+
  
 The following changes were made to implement the required tasks.
+
       1. The two example scenarios in the search feature were failing as they were asserting on options which no longer exist on the home page hence I updated them which now pass.
         Also, implemented the remaining WIP scenarios using a page object pattern.
       2. I have moved the Screenplay Scenario into a new feature file so that I could refactor the existing Search feature using the 'Background'option.
